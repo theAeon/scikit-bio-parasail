@@ -1,0 +1,21 @@
+[project]
+name = "scikit-bio-parasail"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Andrew Robbins & Joris Vankerschaver", email = "andrew@robbinsa.me"},
+]
+license-expression = "BSD-3-Clause"
+dependencies = [
+    "scikit-bio>=0.5.7",
+]
+requires-python = ">=3.8,<3.11"
+
+[project.urls]
+Homepage = ""
+
+[tool.pdm]
+
+[build-system]
+requires = ["pdm-pep517>=0.12.0"]
+build-backend = "pdm.pep517.api"
