@@ -17,6 +17,7 @@ Homepage = "https://github.com/theAeon/scikit-bio-parasail"
 
 [project.optional-dependencies]
 [tool.pdm]
+includes = ['skbio_parasail/']
 version = {use_scm = true}
 [tool.pdm.dev-dependencies]
 dev = [
