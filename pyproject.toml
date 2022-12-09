@@ -18,7 +18,10 @@ Homepage = "https://github.com/theAeon/scikit-bio-parasail"
 [project.optional-dependencies]
 [tool.pdm]
 includes = ['skbio_parasail']
-version = {use_scm = true}
+[tool.pdm.version]
+source = "scm"
+write_to = "mypackage/__version__.py"
+write_template = "__version__ = '{}'"
 [tool.pdm.dev-dependencies]
 dev = [
     "twine>=4.0.0",
