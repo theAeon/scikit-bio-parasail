@@ -4,12 +4,12 @@ description = ""
 authors = [
     {name = "Andrew Robbins & Joris Vankerschaver", email = "andrew@robbinsa.me"},
 ]
-license-expression = "BSD-3-Clause"
+license = "BSD-3-Clause"
 dependencies = [
     "scikit-bio>=0.5.7",
     "parasail>=1.2.4",
 ]
-requires-python = ">=3.8,<3.11"
+requires-python = ">=3.8,<3.12"
 dynamic = ["version"]
 
 [project.urls]
